@@ -38,8 +38,6 @@
   #include "include/mouse_tp.dtsi"
 #endif  // HAS_MOUSE_TP
 
-
-
 // Adjust layer keys based on enabled features.
 //
 // This prevents build errors when we build the firmware
@@ -64,14 +62,6 @@
 
     Base_layer {
       display-name = "Base";
-
-      bindings = <
-      &kp Q &kp W &kp E &kp R &kp T          &kp Y &kp U  &kp I     &kp O   &kp P    
-      &kp A &kp S &kp D &kp F &kp G          &kp H &kp J  &kp K     &kp L   &kp SEMI 
-      &kp Z &kp X &kp C &kp V &kp B          &kp N &kp M  &kp COMMA &kp DOT &kp FSLH 
-                  &kp LGUI &none &kp SPACE   &kp RET &none &kp RALT
-               >;
- /*                          
       bindings = <
 // ╭────────────────────────┬────────────────────────┬────────────────────────┬────────────────────────┬────────────────────────┬────────────────────────╮    ╭────────────────────────┬────────────────────────┬────────────────────────┬───────────────────────┬────────────────────────┬────────────────────────╮
      &kp Q                    &kp W                    &kp E                    &kp R                    &kp T                         &kp Y                    &kp U                    &kp I                    &kp O                    &kp P
@@ -82,12 +72,10 @@
 // ╰────────────────────────┴────────────────────────┴────────────────────────┴────────────────────────┼────────────────────────┼────────────────────────┤    ├────────────────────────┼────────────────────────┼────────────────────────┼───────────────────────┼────────────────────────┼────────────────────────╯
                                                                                 &mo LOWER                &kp SPACE                U_THUMB_INNER                 U_THUMB_INNER            &kp RET                  &mo LOWER
 //                                                                            ╰────────────────────────┴────────────────────────┴────────────────────────╯    ╰────────────────────────┴────────────────────────┴────────────────────────╯
-
       >;
-*/
     };
 
-/*
+
     Lower_layer {
       display-name = "Lower";
       bindings = <
@@ -158,6 +146,6 @@
     };
 
 #endif
-*/
+
   };
 };
