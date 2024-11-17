@@ -78,7 +78,7 @@
       >;
     };
 
-
+/*
     Lower_layer {
       display-name = "Lower";
       bindings = <
@@ -149,5 +149,6 @@
     };
 
 #endif
+*/
   };
 };
