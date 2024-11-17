@@ -1,13 +1,10 @@
 file_format: "1"
 id: wave36
-name: Wave 36
+name: wave36
 type: shield
 url: https://github.com/foostan/crkbd/
 requires: [pro_micro]
 features:
   - keys
-  - display
-  - underglow
-siblings:
-  - wave36
+
   
