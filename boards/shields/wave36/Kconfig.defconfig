@@ -1,7 +1,8 @@
 
 # Central Side Configuration
 
-
+if SHIELD_MY_BOARD
 config SHIELD_WAVE36
-    default "Wave 36"
+    default "wave36"
+endif
 
